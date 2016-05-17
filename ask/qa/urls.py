@@ -1,3 +1,5 @@
+from django.conf.urls import url
+
 urlpatterns = [
     url(r'^$', 'test'), 
     url(r'^question/(?P<pk>\d+)/', question_detail, name='question_detail'),
