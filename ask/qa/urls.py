@@ -1,4 +1,5 @@
 urlpatterns = [
+    url(r'^$', 'test'), 
     url(r'^question/(?P<pk>\d+)/', question_detail, name='question_detail'),
     url(r'^popular/', popular, name='popular'),
     url(r'^ask/', question_ask, name='question_ask'),
