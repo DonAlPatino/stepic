@@ -1,7 +1,7 @@
 # Install
 #sudo pip install --upgrade django
 # Git
-git clone https://github.com/DonAlPatino/stepic.git /home/box/web
+#git clone https://github.com/DonAlPatino/stepic.git /home/box/web
 
 # MySQL
 echo 'innodb_use_native_aio = 0' | sudo tee --append /etc/mysql/my.cnf
