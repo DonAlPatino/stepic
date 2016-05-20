@@ -7,9 +7,9 @@ sudo ln -sf /home/box/web/etc/nginx.conf /etc/nginx/sites-enabled/ask.conf
 sudo /etc/init.d/nginx restart
 
 # Gunicorn (ver. 17.5)
-touch /home/box/gunicorn.log
-sudo ln -sf /home/box/web/etc/gunicorn_ask.conf /etc/gunicorn.d/ask
-sudo /etc/init.d/gunicorn restart
+#touch /home/box/gunicorn.log
+#sudo ln -sf /home/box/web/etc/gunicorn_ask.conf /etc/gunicorn.d/ask
+#sudo /etc/init.d/gunicorn restart
 
 
 #sudo ln -sf /home/box/web/etc/hello.py /etc/gunicorn.d/hello.py
