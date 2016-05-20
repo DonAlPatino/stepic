@@ -60,5 +60,4 @@ def question_detail(request, pk):
     return render(request, 'detail.html', {
         'question': question,
         'answers': answers,
-        'form': form,
     })
