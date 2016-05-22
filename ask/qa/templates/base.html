@@ -16,6 +16,9 @@
     </div>
     <div class="sidebar">
       {% block sidebar %}
+	{% if user.is_authenticated %}
+	<h2>{{user.username}}</h2>
+	{% endif %}
         <h2>Navigation</h2>
         <p><a href="/">Home</a></p>
         <p><a href="/popular/">Popular Questions</a></p>
