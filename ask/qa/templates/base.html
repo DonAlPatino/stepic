@@ -16,9 +16,13 @@
     </div>
     <div class="sidebar">
       {% block sidebar %}
+	<h2>Hi, 
 	{% if user.is_authenticated %}
-	<h2>{{user.username}}</h2>
+	{{user.username}}
+	{% else %}
+	Anonymus
 	{% endif %}
+ 	!</h2>
         <h2>Navigation</h2>
         <p><a href="/">Home</a></p>
         <p><a href="/popular/">Popular Questions</a></p>
